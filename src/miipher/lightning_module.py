@@ -1,7 +1,6 @@
 from typing import Any, Optional
 from lightning.pytorch import LightningModule
 from lightning.pytorch.utilities.types import STEP_OUTPUT
-from lightning_vocoders.models.hifigan.lightning_module import MultiPeriodDiscriminator, MultiScaleDiscriminator
 from .model.miipher import Miipher
 from omegaconf import DictConfig
 from lightning.pytorch import loggers

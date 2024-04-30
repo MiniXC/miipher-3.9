@@ -6,7 +6,6 @@ from omegaconf import DictConfig
 from lightning.pytorch import loggers
 from torch import nn
 from typing import List
-from lightning_vocoders.models.hifigan.xvector_lightning_module import HiFiGANXvectorLightningModule
 import torch
 import hydra
 

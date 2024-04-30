@@ -1,6 +1,6 @@
 [project]
 name = "miipher"
-version = "0.1.1"
+version = "0.1.2"
 description = "Add a short description here"
 authors = [
     { name = "Wataru Nakata", email = "wataru9871@gmail.com" }

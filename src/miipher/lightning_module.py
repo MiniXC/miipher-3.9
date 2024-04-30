@@ -92,7 +92,7 @@ class MiipherLightningModule(LightningModule):
         self.log("train/loss", loss, batch_size=phone_feature.size(0),prog_bar=True)
         return loss
 
-    def validation_step(self, batch, batch_idx) -> STEP_OUTPUT | None:
+    def validation_step(self, batch, batch_idx) -> STEP_OUTPUT:
         (
             phone_feature,
             speaker_feature,
